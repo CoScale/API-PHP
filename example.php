@@ -4,7 +4,7 @@
  */
 
 /**
- * A simple hierarchy of class based on MVC principles like in Laravel or any other framework.
+ * A simple hierarchy of classes based on MVC principles like in Laravel or any other framework.
  * You can also use this example within any function.
  */
 class PublicPagesController extends BaseController {
@@ -53,7 +53,7 @@ class PublicPagesController extends BaseController {
         } else {
             // If the authorization token is null then something went wrong.
             // Debug.
-            var_dump(Coscale\AuthorizationTokenManager::$lastCurlRequestInfo);
+            // var_dump(Coscale\AuthorizationTokenManager::$lastCurlRequestInfo);
         }
 
         // Render page.
