@@ -1,4 +1,4 @@
-# CoScale-api-php
+# CoScale-sdk-php
 
 This repo has a collection of helper classes for PHP to help you communicate with our API via PHP.
 
